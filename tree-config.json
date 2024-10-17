@@ -1,0 +1,36 @@
+{
+    "excludeFolders": [
+        "node_modules",
+        ".git",
+        "build",
+        "dist",
+        ".next",
+        "out",
+        "public",
+        "coverage",
+        "logs"
+    ],
+    "excludeFiles": [
+        ".DS_Store",
+        "Thumbs.db",
+        "*.log"
+    ],
+    "frameworks": {
+        "cra": {
+            "excludeFolders": ["build", "coverage"],
+            "excludeFiles": [".DS_Store", "Thumbs.db"]
+        },
+        "nextjs": {
+            "excludeFolders": [".next", "out"],
+            "excludeFiles": [".DS_Store", "Thumbs.db"]
+        },
+        "gatsby": {
+            "excludeFolders": [".cache", "public"],
+            "excludeFiles": [".DS_Store", "Thumbs.db"]
+        },
+        "reactNative": {
+            "excludeFolders": ["android", "ios", "node_modules"],
+            "excludeFiles": [".DS_Store", "Thumbs.db"]
+        }
+    }
+}
