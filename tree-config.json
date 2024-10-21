@@ -13,8 +13,48 @@
     "excludeFiles": [
         ".DS_Store",
         "Thumbs.db",
-        "*.log"
+        "*.log",
+        "package-lock.json"
     ],
+    "fileTypes": {
+        "binary": [
+           
+            ".ico", ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".svg", ".psd",
+     
+            ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx",
+         
+            ".zip", ".tar", ".gz", ".7z", ".rar", ".iso",
+        
+            ".ttf", ".otf", ".woff", ".woff2", ".eot",
+      
+            ".mp3", ".wav", ".ogg", ".m4a", ".flac", ".aac",
+    
+            ".mp4", ".avi", ".mov", ".wmv", ".flv", ".mkv", ".webm",
+   
+            ".db", ".sqlite", ".mdb",
+      
+            ".exe", ".dll", ".so", ".dylib",
+       
+            ".bin", ".dat"
+        ],
+        "code": [
+            ".js", ".ts", ".jsx", ".tsx", 
+            ".css", ".scss", ".sass", ".less", 
+            ".html", ".htm", 
+            ".json", ".yml", ".yaml",
+            ".xml", ".svg",
+            ".php", ".py", ".rb", ".java", ".cs", ".go",
+            ".sql", ".graphql"
+        ],
+        "text": [
+            ".md", ".txt", ".rtf",
+            ".env", ".env.local", ".env.development", ".env.production",
+            ".config", ".conf", ".ini",
+            ".csv", ".tsv",
+            ".gitignore", ".npmignore",
+            ".lock", ".toml"
+        ]
+    },
     "frameworks": {
         "cra": {
             "excludeFolders": ["build", "coverage"],
