@@ -362,6 +362,10 @@ function findAPIEndpoints(baseDir) {
 
     // Define API directory patterns
     const apiPatterns = [
+        '**/api/*.ts',
+        '**/api/*.js',
+        '**/api/*.tsx',
+        '**/api/*.jsx',
         '**/api/**/*.ts',
         '**/api/**/*.js',
         '**/api/**/*.tsx',
@@ -919,7 +923,7 @@ function generateFileContents(baseDir, endpoints, componentPath = null) {
             output.push('\n#### Dependents');
             output.push('Files that import or require this file:');
             Array.from(dependents).forEach(dep => {
-                output.push(`- ${path.relative(baseDir, dep)} (is imported by)`);
+                output.push(`- is imported by: ${path.relative(baseDir, dep)}`);
             });
         }
 
