@@ -1,0 +1,1 @@
+// Content of logger.test.ts
