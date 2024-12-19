@@ -1,1 +1,1 @@
-// Content of logger.test.ts
+/* Logger tests content */

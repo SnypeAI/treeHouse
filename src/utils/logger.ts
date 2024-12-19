@@ -1,1 +1,1 @@
-// Content of logger.ts
+/* Logging system content */
